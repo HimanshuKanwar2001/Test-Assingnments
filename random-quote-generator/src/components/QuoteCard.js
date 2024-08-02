@@ -8,7 +8,7 @@ function QuoteCard({ quote, onSave }) {
     <div className="card shadow-2-strong mb-4" style={{ borderRadius: "10px", backgroundColor: "#fff" }}>
       <div className="card-body p-4">
         <blockquote className="blockquote blockquote-custom bg-white px-3 pt-4">
-          <div className="blockquote-custom-icon bg-info shadow-1-strong">
+          <div className="blockquote-custom-icon shadow-1-strong">
             <i className="fa fa-quote-left text-white"></i>
           </div>
           <p className="mb-0 mt-2 font-italic">{quote}</p>
